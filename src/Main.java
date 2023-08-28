@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,33 +19,42 @@ public class Main {
                 new Cogtevran("Маркус Белби", 55, 49, 57, 68, 82, 57)
         };
 
+
         Griffindor potter = new Griffindor("Гарри Поттер", 50, 25, 33, 28, 35);
+        System.out.println(potter.toString());
+
         Griffindor greindhzer = new Griffindor("Гермиона Грейнджер", 52, 28, 34, 36, 37);
+        System.out.println(greindhzer.toString());
+
         Griffindor uithly = new Griffindor("Рон Уизли", 44, 25, 38, 31, 41);
+        System.out.println(uithly.toString());
+
         Slizerin malfoy = new Slizerin("Драко Малфой", 35, 24, 29, 36, 55, 76, 52);
+        System.out.println(malfoy.toString());
+
         Slizerin momtegu = new Slizerin("Грэхэм Монтегю", 73, 44, 37, 39, 43, 67, 73);
+        System.out.println(momtegu.toString());
+
         Slizerin goil = new Slizerin("Грегори Гойл", 33, 29, 44, 47, 49, 55, 84);
+        System.out.println(goil.toString());
+
         Puffendui smit = new Puffendui("Захария Смит", 29, 34, 42, 51, 63);
+        System.out.println(smit.toString());
+
         Puffendui diggory = new Puffendui("Седрик Диггори", 65, 77, 65, 38, 54);
+        System.out.println(diggory.toString());
+
         Puffendui finchFletchly = new Puffendui("Джастин Финч-Флетчли", 69, 85, 82, 73, 63);
+        System.out.println(finchFletchly.toString());
+
         Cogtevran chang = new Cogtevran("Чжоу Чанг", 47, 56, 48, 62, 59, 39);
+        System.out.println(chang.toString());
+
         Cogtevran patil = new Cogtevran("Падма Патил", 80, 44, 56, 74, 81, 44);
+        System.out.println(patil.toString());
+
         Cogtevran belby = new Cogtevran("Маркус Белби", 55, 49, 57, 68, 82, 57);
-
-
-
-        Griffindor.printStudent(potter);
-        Griffindor.printStudent(greindhzer);
-        Griffindor.printStudent(uithly);
-        Slizerin.printStudent(malfoy);
-        Slizerin.printStudent(momtegu);
-        Slizerin.printStudent(goil);
-        Puffendui.printStudent(smit);
-        Puffendui.printStudent(diggory);
-        Puffendui.printStudent(finchFletchly);
-        Cogtevran.printStudent(chang);
-        Cogtevran.printStudent(patil);
-        Cogtevran.printStudent(belby);
+        System.out.println(belby.toString());
 
         System.out.println("____________________________________________________________________");
 

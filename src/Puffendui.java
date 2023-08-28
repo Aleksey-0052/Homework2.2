@@ -33,18 +33,10 @@ public class Puffendui extends Hogwarts {
         }
     }
 
-    // @Override
-    // public String toString() {
-        // return "Puffendui: имя и фамилия студента - " + fullName + ", сила магии = " + powerOfMagic
-                // + ", расстояние трансгрессии = " + transgressionDistance + ", трудолюбие = " + industriousness
-                // + ", верность = " + loyalty + ", честность = " + honesty + ".";
-    // }
-
-    public static void printStudent(Puffendui puffendui) {
-
-        System.out.println("Puffendui: имя и фамилия студента - " + puffendui.getFullName() + ", сила магии = " +
-                puffendui.getPowerOfMagic() + ", расстояние трансгрессии = " + puffendui.getTransgressionDistance() +
-                ", трудолюбие = " + puffendui.getIndustriousness() + ", верность = " + puffendui.getLoyalty() +
-                ", честность = " + puffendui.getHonesty() + ".");
+    @Override
+    public String toString() {
+    return "Puffendui: " + super.toString() + ", трудолюбие = " + industriousness
+                + ", верность = " + loyalty + ", честность = " + honesty + ".";
     }
+
 }

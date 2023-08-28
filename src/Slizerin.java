@@ -46,20 +46,12 @@ public class Slizerin extends Hogwarts {
             System.out.println(slizerin.getFullName() + " лучший Слизеринец, чем " + fullName);
         }
     }
-    // @Override
-    // public String toString() {
-        // return "Slizerin: имя и фамилия студента - " + fullName + ", сила магии = " + powerOfMagic
-                // + ", расстояние трансгрессии = " + transgressionDistance + ", хитрость = " + cunning
-                // + ", решительность = " + determination + ", амбициозность = " + ambition +
-                // ", находчивость = " + resourcefulness + ", жажда власти = " + desireForPower + ".";
-    // }
-
-    public static void printStudent(Slizerin slizerin) {
-
-        System.out.println("Slizerin: имя и фамилия студента - " + slizerin.getFullName() + ", сила магии = " +
-                slizerin.getPowerOfMagic() + ", расстояние трансгрессии = " + slizerin.getTransgressionDistance() +
-                ", хитрость = " + slizerin.getCunning() + ", решительность = " + slizerin.getDetermination() +
-                ", амбициозность = " + slizerin.getAmbition() + ", находчивость = " + slizerin.getResourcefulness() +
-                ", жажда власти = " + slizerin.getDesireForPower() + ".");
+    @Override
+    public String toString() {
+        return "Slizerin: " + super.toString() + ", хитрость = " + cunning + ", решительность = "
+                + determination + ", амбициозность = " + ambition + ", находчивость = " +
+                resourcefulness + ", жажда власти = " + desireForPower + ".";
     }
+
+
 }
