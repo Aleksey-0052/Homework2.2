@@ -32,15 +32,8 @@ public class Griffindor extends Hogwarts {
     }
     @Override
     public String toString() {
-        return "Griffindor: имя и фамилия студента - " + fullName + ", сила магии = " + powerOfMagic +
-                ", расстояние трансгрессии = " + transgressionDistance + ", благородство = " + nobility +
+        return "Griffindor: " + super.toString() + ", благородство = " + nobility +
                 ", честь = " + honor + ", храбрость = " + bravery + ".";
     }
-
-    public static void printStudent(Griffindor griffindor) {
-
-        System.out.println(griffindor.toString());
-    }
-
 
 }

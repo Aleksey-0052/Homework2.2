@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Hogwarts {
+public abstract class Hogwarts {
     protected String fullName;
     protected int powerOfMagic;
     protected int transgressionDistance;
@@ -36,7 +36,7 @@ public class Hogwarts {
 
     @Override
     public String toString() {
-        return "Имя и Фамилия студента: " + fullName + ", сила магии = " + powerOfMagic +
+        return "имя и фамилия студента - " + fullName + ", сила магии = " + powerOfMagic +
                 ", расстояние трансгрессии = " + transgressionDistance;
     }
 }

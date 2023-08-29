@@ -38,13 +38,8 @@ public class Cogtevran extends Hogwarts {
 
     @Override
     public String toString() {
-        return "Cogtevran: имя и фамилия студента - " + fullName + ", сила магии = "  + powerOfMagic +
-                ", расстояние трансгрессии = " + transgressionDistance + ", ум = " + mind +
-                ", мудрость = " + wisdom + ", остроумие = " + wit + ", творчество = " + creation + ".";
+        return "Cogtevran: " + super.toString() + ", ум = " + mind + ", мудрость = " +
+                wisdom + ", остроумие = " + wit + ", творчество = " + creation + ".";
     }
 
-    public static void printStudent(Cogtevran cogtevran) {
-
-        System.out.println(cogtevran.toString());
-    }
 }
